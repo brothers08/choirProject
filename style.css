@@ -1,0 +1,26 @@
+body {
+    width: 100%;
+}
+
+header {
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.center-sec {
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.bg-color {
+    background-color: rgba(27,66,152,1.00);
+}
+
+.h-side-tabs {
+    height: 100vh;
+}
+
+.h-side-tabs button {
+    width: 100%;
+    border: 0;
+}
