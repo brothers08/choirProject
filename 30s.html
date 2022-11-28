@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dillard University Concert Choir</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+      <div class="page-container">
+        
+        <div class="content-wrap">
+          <header>
+              <nav class="navbar navbar-expand-lg text-white bg-color navbar-dark">
+                  <div class="container-fluid">
+                
+                    <a class="navbar-brand no-mr" href="index.html" aria-label="home page">
+                      <!-- <img src="images/logoOnly.png" id="logo" class="float-start" alt="dillard University logo"> -->
+                      <span class="title-text align-middle">Dillard University Concert Choir</span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                      <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> 
+                        <li class="nav-item"><a class="nav-link" href="brief.html">Brief History</a></li>  
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Timeline</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="30s.html">1930s</a></li>
+                            <li><a class="dropdown-item" href="40s.html">1940s</a></li>
+                            <li><a class="dropdown-item" href="50s.html">1950s</a></li>
+                            <li><a class="dropdown-item" href="60s.html">1960s</a></li>
+                            <li><a class="dropdown-item" href="70s.html">1970s</a></li>
+                            <li><a class="dropdown-item" href="80s.html">1980s</a></li>
+                            <li><a class="dropdown-item" href="90s.html">1990s</a></li>
+                            <li><a class="dropdown-item" href="00s.html">2000s</a></li>
+                            <li><a class="dropdown-item" href="10s.html">2010s</a></li>
+                            <li><a class="dropdown-item" href="20s.html">2020s</a></li>
+                        </ul>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </nav>
+          </header>
+
+          <!-- Content Tabs -->
+          <ul class="nav nav-pills nav-justified center-sec" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="35-36" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">1935 - 1936</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="1937" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">1937</button>
+            </li>
+          </ul>
+
+          <div class="tab-content center-sec clearfix" id="myTabContent">
+            <!-- First Tab -->
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="35-36-tab" tabindex="0">
+              
+              <h2 class="text-center text-center mt-5">1935-1936 Dillard University Chorus</h2>
+
+              <!-- First Image -->
+              <img src="images/35-36choir.jpg" id="firstchoirpic" class="d-block w-50 mt-2 img-fluid mx-auto rounded" onclick="openModal(this.id)" 
+              alt="The inaugural choir directed by Professor Frederick Hall." />
+              <p class="text-center mb-5">The inaugural choir directed by Professor Frederick Hall.</p>
+
+              <p class="text-center justify-content-center align-items-center">Below is an article printed in the 1936 edition of the Dillard University newspaper,
+                the Courtbouillon. The University Choir was founded in 1935, the same year Dillard University was.</p>
+              
+              <!-- 2nd Image -->
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <img src="images/firstseason.jpg" id="firstclose" class="img-fluid" onclick="openModal(this.id)" 
+                    alt="first season article" />
+                  </div>
+                  
+                  <div class="col">
+                    <img src="images/1st Season Tour.jpg" id="laWeekly" class="img-fluid" onclick="openModal(this.id)" 
+                    alt="Dillard Singers Return From Successful Tour, Louisiana Weekly, May 30, 1936.
+                    The Dillard University Chorus under the direction of Professor Frederick Hall, has just returned
+                    from its first annual tour. The feature presentation of the thirty-eight voice aggregation was the histori-
+                    cal pagent of the development of the spirituals from Africa to the present day in America, entitled
+                    Heritage.
+                    The Dillard Singers appeared before capacity houses in Meridian, Mississippi; Birmingham, and
+                    Montgomery, Alabama; Nashville and Chattanooga, Tennessee; Louisville, Kentucky, and at Wilberforce
+                    Universtiy and the Methodist Episcopal Church Conference at Columbus, Ohio. At Columbus and Montgomery 
+                    the over flowing crowd left standing room only.
+                    Those making the tour were: Misses Ontee Cain, Florice Brazley, Doris Daniels, Modilie Deloach,
+                    Elma Freeman, Eugenia Fletcher, Margaret Franklin, Oralee Hereford, Eugenia Jackson, Mable Ward,
+                    Helen Wilderson, Cora Mae Allen, Gladys Bellinger, Mary Evans, Mertie Farrar, Freda Johnson, Gladys
+                    Jones, Elaine Owens, Laura Burnbull, Hazel Ward, Messrs. James Brown, Ramsey Bridges, Lawrence
+                    Carter, Traverse Crawford, Fred Dillon, James Frankin, Arthur Maytag, Elmaurice Miller, Joseph Adkins,
+                    John Buggs, Kacillious Bridges, Harry Lewis, Otho Gaines, Lloyd Sandle and Oliver Conway." />
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3rd Image -->
+              <div class="container mt-5 mb-3">
+                <div class="row">
+                  <div class="col">
+                    <h4>A brochure from 1935 about the first season of the choir</h4>
+                  </div>
+
+                  <div class="col">
+                    <img src="images/Dillard Choir Brochure 2.jpg" id="bro2" class="img-fluid vw-50 mx-auto d-block" onclick="openModal(this.id)" alt="first season article" />
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Second Tab -->
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="36-37-tab" tabindex="0">
+
+              <h2 class="text-center mt-5">1937 Concert Chorus</h2>
+              
+              <img src="images/1937 bulletin.jpg" id="37bulletin" class="d-block w-50 mt-2 img-fluid mx-auto rounded" onclick="openModal(this.id)" 
+              alt="THE DILLARD BULLETIN; The Dillard University Chorus; 
+              First row, seated, left to right: Traverse Crawford, Indianola, Miss.; George Franklin, Marcus Neustadter, Doris Daniels, New Orleans; Wille B. Frazier, Arkansas
+              City; Margery Price. Mobile, Ala.; Margaret Franklin, Cora Mae Allen, Mabel Ward, Regina Fletcher, Hazel Ward, Gladys Bellanger, Edith Daniels, New Orleans; Melba
+              Brazier, Donaldsonville, La.; Elmaurice Miller, Tulsa, Okla.; Sharkey Boyd, Vicksburg, Miss.; Xenophon Lang, New Orleans. Second Row, seated, left to right: Willie Ed-
+              wards, Meridian, Miss.; Warren Singleton, Mobile, Ala.; Mack Williams, Houston, Texas; Ramsey Bridges, Foxworth, Miss.; Vera Green, Ethel Muse, New Orleans; Myrtle
+              Lamotte, Baton Rouge; Mary Jones, Clara Bissant, New Orleans; Helen Wilkerson, Moreauville, La.; Mildred Dunnings, New Orleans; Ruth Currie, Brownsville, Tenn.;
+              Elaine Owen, Georgetta Green, Oralee Hereford, New Orleans; Alice Mhoon, Meridian, Miss.: John Buggs, Bruswick, Ga.; Robert Brown, Knoxville, Tenn.; Edward Thomas,
+              Henry Coleman, New Orleans. Third Row, standing, left to right: Fred Dillon, Magnolia, Miss.; Joseph Powe, Dallas, Texas; Florence Brazley, New Orleans; Floyd Sandle,
+              Magnolia, Miss.; Irene Williams, Rosa Hunter, Maria Salmon, Elvira Freeman, Eva Sloan, New Orleans; Eva Crawford, Indianola, Miss.; Laura Turnbull, Gladys Jones, New
+              Orleans; Madeline DeLoach, Philadelphia, Penna.; Mae Richardson, New Orleans; Inez Jenkins, Alexandria, La.; Lois Neale and Ruth Hayes, New Orleans. Fourth Row,
+              standing, left to right: Arthur Mabry, Beaumont, Texas; William Gaston, Sheffield, Ala.; Theodore Hall, Elizabeth, La.; James Taylor, New Orleans; Kacellious Bridges,
+              Natchez, Miss.; Otho Gaines, Tupelo, Miss.; Harry Lewis, New Orleans." />
+              <p class="text-center mb-5">Click the image to enlarge</p>
+            </div>
+
+          </div>
+
+          <!-- The Modal -->
+          <div id="myModal" class="modal pt-5 justify-content-center align-items-center">
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+            <div id="modal-cont" class="d-flex ">
+              <!-- Modal Content (The Image) -->
+              <img class="modal-img vw-50 img-fluid" id="img01">
+            </div>
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption" class="mb-5"></div>
+          </div>
+        </div>
+
+        <footer class="center-sec d-block pt-3 pb-3 text-center text-white bg-color">
+            <h5>
+              2601 Gentilly Boulevard, New Orleans Louisiana 70122 <br />
+              (504) 283 - 8822 <br />
+              A United Methodist Church and United Church of Christ Affiliated University
+            </h5>
+        </footer>
+
+      </div>
+    </body>
+</html>
