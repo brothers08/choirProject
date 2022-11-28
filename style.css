@@ -1,26 +1,108 @@
 body {
-    width: 100%;
-}
-
-header {
-    width: 75%;
-    margin-left: 12.5%;
-}
-
-.center-sec {
-    width: 75%;
-    margin-left: 12.5%;
+  width: 100%;
+  font-family: Garamond, serif !important;
 }
 
 .bg-color {
-    background-color: rgba(27,66,152,1.00);
+  background-color: rgba(27,66,152,1.00);
 }
 
 .h-side-tabs {
-    height: 100vh;
+  height: 100vh;
 }
 
 .h-side-tabs button {
-    width: 100%;
-    border: 0;
+  width: 100%;
+  border: 0;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+}
+
+.navbar-text {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+}
+
+#bro2 {
+  width: 50vw !important;
+}
+
+
+.no-mr {
+  margin-right: 0% !important;
+}
+
+.title-text {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: white;
+}
+
+/* Modal Content (Image) */
+.modal-img {
+  margin: auto;
+  display: block;
+  width: 50vw;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 90%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-img, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #ccc;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-img {
+    width: 80%;
+  }
 }
