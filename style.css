@@ -5,6 +5,10 @@ body {
   font-family: Garamond, serif !important;
 }
 
+header {
+  width: 100%;
+}
+
 .bg-color {
   background-color: rgba(27,66,152,1.00);
 }
