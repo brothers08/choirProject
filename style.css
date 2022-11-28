@@ -63,6 +63,14 @@ footer {
   opacity: 0.7;
 }
 
+#art74 {
+  margin-left: 26%;
+}
+
+#jj74 {
+  margin-left: -1%;
+}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -121,5 +129,11 @@ footer {
 @media only screen and (max-width: 700px){
   .modal-img {
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    width: 110%;
   }
 }
