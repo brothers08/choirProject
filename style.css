@@ -44,10 +44,6 @@ button.active {
   width: 50% !important;
 }
 
-#hallportrait {
-  margin-top: 20%;
-}
-
 #frontbul40 {
   width: 35%;
 }
@@ -178,6 +174,6 @@ footer {
   }
 
   #tlbtn, #hisbtn {
-    width: 40% !important;
+    width: 100% !important;
   }
 }
