@@ -40,10 +40,6 @@ button.active {
   padding-top: 10px;
 }
 
-#bro2 {
-  width: 50% !important;
-}
-
 #frontbul40 {
   width: 35%;
 }
@@ -89,6 +85,10 @@ footer {
 .title-text {
   font-weight: bolder;
   font-size: larger;
+}
+
+#row2-30s {
+  width: 90%;
 }
 
 #myTabContent img {
@@ -171,9 +171,14 @@ footer {
 @media screen and (max-width: 400px) {
   body {
     width: 110%;
+    height: 110%;
+  }
+
+  .body90s {
+    width: 100% !important;
   }
 
   #tlbtn, #hisbtn {
-    width: 100% !important;
+    width: 45% !important;
   }
 }
