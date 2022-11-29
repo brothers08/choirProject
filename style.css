@@ -168,7 +168,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 750px) {
   body {
     width: 110%;
     height: 110%;
