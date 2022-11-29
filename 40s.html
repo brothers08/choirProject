@@ -28,10 +28,10 @@
 
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                   <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> 
-                    <li class="nav-item"><a class="nav-link" href="brief.html">Brief History</a></li>  
+                    <li class="nav-item"><a class="nav-link link-color" href="index.html">Home</a></li> 
+                    <li class="nav-item"><a class="nav-link link-color" href="brief.html">Brief History</a></li>  
                     <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Timeline</a>
+                    <a class="nav-link dropdown-toggle link-color" href="#" role="button" data-bs-toggle="dropdown">Timeline</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="30s.html">1930s</a></li>
                         <li><a class="dropdown-item" href="40s.html">1940s</a></li>
@@ -69,24 +69,32 @@
               <!-- 1st Image -->
               <div class="container">
 
-                <div class="row">
-                  <div class="col">
-                    <img src="images/40s/1940 bulletin Hall.jpg" id="" class="img-fluid" onclick="openModal(this.id)" 
+                <div class="row justify-content-center align-items-center mx-auto mt-5 w-100">
+                  <div class="col w-25">
+                    <h4 class="text-center">An article was published in the Dillard Bulletin in 1940 on Dillard's first choir director, 
+                      Frederick D. Hall. Not only did he begin the University Choir legacy, he also helped create Dillard's Alma Mater,
+                      <i>Fair Dillard</i>.
+                    </h4>
+                    <h4 class="text-center">Below are more articles from the Dillard Bulletin about the University Choir's participation in
+                      the former Arts Festival held on campus, as well as the National Folk Festival.
+                    </h4>
+                  </div>
+                  <div class="col w-75">
+                    <img src="images/40s/1940 bulletin Hall.jpg" id="hallportrait" class="float-start img-fluid w-50" onclick="openModal(this.id)" 
+                    alt="" />
+                    <img src="images/40s/1940 bulletin Hall info.jpg" id="hallbio" class="float-start img-fluid w-50" onclick="openModal(this.id)" 
                     alt="" />
                   </div>
-                  <div class="col">
-                    <img src="images/40s/1940 bulletin Hall info.jpg" id="" class="img-fluid" onclick="openModal(this.id)" 
-                    alt="" />
-                  </div>
+
                 </div>
 
-                <div class="row">
+                <div class="row justify-content-center align-items-center mt-5 mb-5">
                   <div class="col">
-                    <img src="images/40s/1940 bulletin front.jpg" id="" class="img-fluid" onclick="openModal(this.id)" 
+                    <img src="images/40s/1940 bulletin front.jpg" id="frontbul40" class="d-block mx-auto img-fluid" onclick="openModal(this.id)" 
                     alt="" />
                   </div>
                   <div class="col">
-                    <img src="images/40s/1940 bulletin back.jpg" id="" class="img-fluid" onclick="openModal(this.id)" 
+                    <img src="images/40s/1940 bulletin back.jpg" id="backbul40" class="d-block mx-auto img-fluid w-50" onclick="openModal(this.id)" 
                     alt="" />
                   </div>
                 </div>
