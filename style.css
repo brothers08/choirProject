@@ -176,4 +176,8 @@ footer {
   body {
     width: 110%;
   }
+
+  #tlbtn, #hisbtn {
+    width: 100% !important;
+  }
 }
