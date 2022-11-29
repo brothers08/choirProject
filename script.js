@@ -1,4 +1,4 @@
-function openModal(curImg) {
+function openModal(curImg, caption) {
     const body = document.querySelector("body");
 
     // Get the modal
@@ -7,13 +7,13 @@ function openModal(curImg) {
     // Get the image and insert it inside the modal - use its "alt" text as a caption
     var img = document.getElementById(curImg);
     var modalImg = document.getElementById("img01");
+    var caption = document.getElementById(caption)
     var captionText = document.getElementById("caption");
-    //var captionText = img.alt;
 
     body.style.overflow = "hidden";
     modal.style.display = "block";
     modalImg.src = img.src;
-    captionText.innerHTML = img.alt;
+    captionText.innerHTML = caption.innerHTML;
 
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
