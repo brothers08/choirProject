@@ -1,4 +1,4 @@
-function openModal(curImg) {
+function openModal(curImg, caption) {
     const body = document.querySelector("body");
 
     // Get the modal
@@ -13,7 +13,7 @@ function openModal(curImg) {
     body.style.overflow = "hidden";
     modal.style.display = "block";
     modalImg.src = img.src;
-    //captionText.innerHTML = caption.innerHTML;
+    captionText.innerHTML = caption.innerHTML;
 
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
