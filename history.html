@@ -18,7 +18,6 @@
 
               <div class="container-fluid">
                 <a class="navbar-brand no-mr" href="index.html" aria-label="home page">
-                  <!-- <img src="images/logoOnly.png" id="logo" class="float-start" alt="dillard University logo"> -->
                   <span class="title-text align-middle">Dillard University Concert Choir</span>
                 </a>
 
@@ -51,56 +50,101 @@
 
             </nav>
           </header>
-          
-          <div class="mb-5">
-            <img src="images/spring20.jpg" class="w-100 mx-auto d-block" alt="" />
-          </div>
 
-          <div class="container justify-content-center align-items-center">
+          <div id="myTabContent" class="container justify-content-center align-items-center">
 
-            <div class="row text-center justify-content-center align-items-center pb-5">
+            <div class="row text-center justify-content-center align-items-center mt-5">
               <div class="col">
-                <h3 class=""> From the long-running holiday concert to performing at the White House, the renowned Dillard 
-                  University Concert Choir has an extensive history going back to the beginning of Dillard in 1935. View the timeline that
-                  highlights just a few significant moments in the history of the Dillard University Concert Choir, as well as several
-                  other choir groups at Dillard.
-                </h3>
+                <h3 class="">Beginnings of the Dillard University Choir</h3>
+                <h4 class="">By John Kennedy</h4>
               </div>
             </div>
 
-            <div class="row text-center justify-content-center align-items-center pb-5">
+            <div class="row text-center justify-content-center align-items-center mt-5">
               <div class="col">
-                <a href="30s.html" id="tlbtn" class="btn btn-primary w-25 p-4 text-nowrap">View the Timeline</a>
-                <a href="history.html" id="hisbtn" class="btn btn-primary w-25 p-4 text-nowrap">Brief History</a>
+                <img src="images/origin/NOU CC 1927-28.jpg" id="noucc27" class="img-fluid w-75 mx-auto d-block" 
+                  onclick="openModal(this.id)" alt="The Dillard University Concert Choir, which has planned a Spring Tour during March 21-April 1, poses with its 
+                  Director Mr. John M. Kuypers, Visiting Professor of Music." />
+                  <p class="text-center mt-3">New Orleans University Choir 1927 - 1928</p>
               </div>
-            </div>
 
-            <div class="row text-center justify-content-center align-items-center mb-5">
               <div class="col">
-                <h3 class="mb-2"> The Dillard University Concert Choir presents the 86th Annual Holiday Concert.</h3>
-                <h3> Sunday, December 4, 2022 <br />
-                    Doors Open at 5:45pm; Concert Starts at 7pm <br />
-                    Lawless Memorial Chapel
-                </h3>
+                  <img src="images/origin/Straight College Choir 1930-31.jpg" id="strcc30" class="img-fluid w-75 mx-auto d-block" 
+                  onclick="openModal(this.id)" alt="The Dillard University Concert Choir, which has planned a Spring Tour during March 21-April 1, poses with its 
+                  Director Mr. John M. Kuypers, Visiting Professor of Music." />
+                  <p class="text-center mt-3">Straight College Choir 1930 - 1931</p>
               </div>
             </div>
 
             <div class="row text-center justify-content-center align-items-center mt-5 mb-5">
               <div class="col">
-                <img src="images/2020s/christmas-holiday-concert-2022_Final.png" class="d-block mx-auto w-50" id="flyer" alt="" />
+                <h5>
+                  Dillard University is the product of a merger made manifest in 1930. Through the legacy of its
+                  predecessors Straight University - 1869 (Later Straight College 1915) and New Orleans University -1872,
+                  Dillard University venerates centuries of African American fortitude in the realm of musicianship,
+                  musical performance, and professionalism. Straight College and New Orleans University fostered vibrant
+                  and successful music programs. As pioneering institutions of higher education amongst African
+                  Americans, both Straight and New Orleans University cultivated music spaces through academia, but also
+                  exposure to all that encompassed Black music and theory. These institutions prioritized the works of
+                  African American composers of the period. A significant gesture in the enlightenment of fertile African
+                  American minds eager to hone their craft and mold the outcomes of their people. Both institutions sought
+                  to intentionally use music as a means of liberation, moreover, the clarion call signifying New Orleans
+                  would be hub of Black music of all genres, especially, via Dillard University.
+                </h5>
               </div>
+            </div>
+
+            <div class="row text-center justify-content-center align-items-center mt-5">
+              <div class="col">
+                <img src="images/origin/NOU Music Study Club 1927-28.jpg" id="noumsc27" class="img-fluid w-75 mx-auto d-block" 
+                  onclick="openModal(this.id)" alt="The Dillard University Concert Choir, which has planned a Spring Tour during March 21-April 1, poses with its 
+                  Director Mr. John M. Kuypers, Visiting Professor of Music." />
+                  <p class="text-center mt-3">New Orleans University Music Study Club 1927 - 1928</p>
+              </div>
+
+              <div class="col">
+                <img src="images/origin/Straight College Ochestra 1930 - 31.jpg" id="strorch30" class="img-fluid w-75 mx-auto d-block" 
+                  onclick="openModal(this.id)" alt="The Dillard University Concert Choir, which has planned a Spring Tour during March 21-April 1, poses with its 
+                  Director Mr. John M. Kuypers, Visiting Professor of Music." />
+                  <p class="text-center mt-3">Straight College Orchestra 1930 - 1931</p>
+              </div>
+            </div>
+
+            <div class="row text-center justify-content-center align-items-center mt-5 mb-5">
+              <div class="col">
+                <h5>
+                  May it be conveyed that the Dillard University Concert Choir has been an intricate aspect of the
+                  university since its opening in 1935. The university’s appreciation and dedication to the arts were not
+                  coincidental, but rather the culmination of determined visionaries who possessed an unwavering foresight
+                  of the grand nature of its possibilities. Thus, the Dillard University Concert Choir is a tangible reflection
+                  of such foresight. Furthermore, its continued success is a momentous homage to its forebears.
+                </h5>
+              </div>   
             </div>
 
           </div>
 
+          <!-- The Modal -->
+          <div id="myModal" class="modal pt-5 justify-content-center align-items-center">
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+            <div id="modal-cont" class="d-flex ">
+                <!-- Modal Content (The Image) -->
+                <img class="modal-img vw-50 img-fluid" id="img01">
+            </div>
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption" class="mb-5"></div>
+        </div>
+
         </div>
 
         <footer class="d-block text-center text-white bg-color">
-          <h5>
+          <p class="justify-content-center align-items-center">
+            Created by Ciara Brothers <br />
+            Dillard University <br />
             2601 Gentilly Boulevard, New Orleans Louisiana 70122 <br />
-            (504) 283 - 8822 <br />
-            A United Methodist Church and United Church of Christ Affiliated University
-          </h5>
+            (504) 283 - 8822
+          </p>
         </footer>
 
       </div>
