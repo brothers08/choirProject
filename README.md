@@ -10,7 +10,7 @@ Distributed under the MIT License and Creative Commons 4.0 License. See `LICENSE
 <!-- CONTACT -->
 ## Contact
 
-Ciara Brothers - ciarabrothers8@gmail.com
+Ciara Brothers - [www.linkedin.com/in/ciarabrothers](LinkedIn)
 
 Project Link: [https://brothers08.github.io/choirProject/](https://brothers08.github.io/choirProject/)
 
@@ -21,6 +21,5 @@ Project Link: [https://brothers08.github.io/choirProject/](https://brothers08.gi
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [](John Kennedy)
-* [](Dillard University)
-* []()
+* [https://www.linkedin.com/in/johnrichardkennedy](John Kennedy)
+* [https://www.dillard.edu/](Dillard University)
