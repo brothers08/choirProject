@@ -1,8 +1,8 @@
 <!-- About -->
 ## About The Project
-Project Link: [Dillard University Concert Choir History](https://brothers08.github.io/choirProject/)
+[Dillard University Concert Choir Timeline](https://brothers08.github.io/choirProject/)
 
-This was created to preserve and showcase the long history of the Dillard University Concert Choir. Designed, researched, and developed by Dillard alumna Ms. Ciara Brothers '23 with the help of former Dillard Archivist Mr. John Kennedy '10.
+This website was created to preserve and showcase the long history of the Dillard University Concert Choir. Designed, researched, and developed by Dillard alumna Ms. Ciara Brothers '23 with the help of former Dillard Archivist Mr. John Kennedy '10.
 
 
 
